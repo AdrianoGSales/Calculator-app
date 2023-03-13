@@ -1,5 +1,6 @@
-np <template>
-   <div class="p-3" style="max-width: 400px; margin: 50px auto; background: #234;">
+<template>
+  <p>Adriano Gomes de Sales</p>
+   <div class="p-3" style="max-width: 350px; margin: 50px auto; background: #1f1f1f">
 
     <!-- Calculator Result -->
     <div class="w-full rounded m-1 p-3 text-right lead font-weight-bold text-white bg-vue-dark">
@@ -80,14 +81,14 @@ export default {
 
 <style scoped>
   .bg-vue-dark {
-    background: #31475e;
+    background: darkslateblue;
   }
   .hover-class:hover {
     cursor: pointer;
-    background: #1fa9b6;
+    background: aquamarine;
   }
   .bg-vue-green {
-    background: #3fb984;
+    background: darkorange;
   }
 
 </style>
